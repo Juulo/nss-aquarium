@@ -1,0 +1,27 @@
+.martin__aquarium h1{
+   text-align: center;
+   font-size: 55px;
+}
+
+.fish__container {
+    justify-content: flex-start;
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 20px;
+    width: 500px;
+    flex-direction: column;
+}
+.fish__card img {
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+}
+.fish__card h2, p {
+    position: relative;
+    left: 200px;
+    right: auto;
+    bottom: 100px;
+}
+.martins__tips {
+    align-content: flex-end;
+}
