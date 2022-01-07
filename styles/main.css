@@ -1,3 +1,7 @@
+.martin__container {
+    display: flex;
+}
+
 .martin__aquarium h1{
    text-align: center;
    font-size: 55px;
@@ -11,16 +15,24 @@
     width: 500px;
     flex-direction: column;
 }
+
 .fish__card img {
     justify-content: flex-start;
     width: 100px;
     height: 100px;
 }
+
 .fish__card h2, p {
     position: relative;
     left: 200px;
     right: auto;
     bottom: 100px;
+}
+.travel__tips__container {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .martins__tips {
     align-content: flex-end;
